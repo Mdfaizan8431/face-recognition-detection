@@ -139,4 +139,4 @@ FastAPI-based backend
 PostgreSQL attendance database
 
 Qdrant vector search for fast recognition
----
+
