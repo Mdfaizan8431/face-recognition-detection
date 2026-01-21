@@ -12,7 +12,7 @@
 
 ## 📌 Project Overview
 
-This project is a ***Real-time Face Recognition and Attendance System**** built using ***Deep Learning and Computer Vision*** techniques. It uses ***InsightFace (RetinaFace for detection and ArcFace for recognition)*** to accurately identify faces from live camera feeds or uploaded images. Each face is converted into a ***512-dimensional embedding*** and stored in ***Qdrant Vector Database*** for fast and reliable matching. A ***FastAPI backend*** handles user registration, face enrollment, and recognition APIs. ***PostgreSQL*** is used to store user details and attendance logs. The system is designed for real-world use cases like employee attendance and access control.
+This project is a ***Real-time Face Recognition and Attendance System*** built using ***Deep Learning and Computer Vision*** techniques. It uses ***InsightFace (RetinaFace for detection and ArcFace for recognition)*** to accurately identify faces from live camera feeds or uploaded images. Each face is converted into a ***512-dimensional embedding*** and stored in ***Qdrant Vector Database*** for fast and reliable matching. A ***FastAPI backend*** handles user registration, face enrollment, and recognition APIs. ***PostgreSQL*** is used to store user details and attendance logs. The system is designed for real-world use cases like employee attendance and access control.
 
 This project is suitable for:
 - Office attendance systems
