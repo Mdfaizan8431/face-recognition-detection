@@ -1,0 +1,15 @@
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual env
+face_env/
+
+# Qdrant local data
+qdrant_data/
+
+# OS files
+.DS_Store

@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+python-dotenv
+psycopg2-binary
+qdrant-client
+retina-face
+insightface
+onnxruntime
+passlib[bcrypt]
+opencv-python
+numpy
