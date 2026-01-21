@@ -1,21 +1,4 @@
-# Face Recognition & Attendance Management System 🚀
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
-![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green)
-![DeepLearning](https://img.shields.io/badge/Deep%20Learning-Face%20Recognition-orange)
-![FastAPI](https://img.shields.io/badge/FastAPI-Backend-success)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue)
-![Qdrant](https://img.shields.io/badge/Qdrant-Vector%20Database-purple)
-
----
-
-## 📌 Project Overview
-
-This project is a **real-time Face Recognition and Attendance Management System** built using  
-**Computer Vision, Deep Learning, and Backend APIs**.
-
-The system detects faces from a live camera feed, recognizes registered users, and automatically
-records their **entry and exit time** in a database.
 # Face Recognition & Attendance Management System 🚀
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
@@ -40,13 +23,7 @@ This project is suitable for:
 - Secure access control
 - Smart entry/exit monitoring
 - AI/ML interview and portfolio projects
-This project is suitable for:
-- Office attendance systems
-- Secure access control
-- Smart entry/exit monitoring
-- AI/ML interview and portfolio projects
 
----
 
 ## 🎯 What This Project Does
 
@@ -57,17 +34,7 @@ This project is suitable for:
 - Prevents duplicate entries using time threshold
 - Stores attendance logs in a database
 - Provides API access to attendance data
-## 🎯 What This Project Does
 
-- Detects faces in real time
-- Recognizes registered users using face embeddings
-- Marks **ENTRY** when a user appears
-- Marks **EXIT** when a user leaves
-- Prevents duplicate entries using time threshold
-- Stores attendance logs in a database
-- Provides API access to attendance data
-
----
 
 ## ⚙️ How the Project Works (Step-by-Step)
 
@@ -136,29 +103,28 @@ Camera → Face Detection → Face Recognition
 - Qdrant Vector Database
 - Ubuntu / Linux (recommended)
 
-## 🚀 How to Run the Project
 
-# 1️⃣ Install Dependencies
+## 1️⃣ Install Dependencies
 
 pip install -r requirements.txt
 
-# 2️⃣ Start Database Services
+## 2️⃣ Start Database Services
 
 Start PostgreSQL
 
 Start Qdrant
 
-# 3️⃣ Register Face Data
+## 3️⃣ Register Face Data
 
 Capture face images
 
 Generate and store face embeddings in Qdrant
 
-# 4️⃣ Run the Application
+## 4️⃣ Run the Application
 
 uvicorn main.fastapi_app:app --host 0.0.0.0 --port 8000
 
-# ✨ Features
+## ✨ Features
 
 Real-time face detection
 
@@ -173,17 +139,4 @@ FastAPI-based backend
 PostgreSQL attendance database
 
 Qdrant vector search for fast recognition
-Accurate face recognition using embeddings
-
-Automatic ENTRY and EXIT tracking
-
-Duplicate entry prevention
-
-FastAPI-based backend
-
-PostgreSQL attendance database
-
-Qdrant vector search for fast recognition
-
-Clean and modular code structure
 ---

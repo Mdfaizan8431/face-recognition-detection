@@ -1,7 +1,7 @@
 import uvicorn
 from qdrant_client import QdrantClient
-from app.db import init_db
-from app.fastapi_app import app
+from main.db import init_db
+from main.fastapi_app import app
 
 def start_qdrant():
     print("🚀 Starting Embedded Qdrant...")
